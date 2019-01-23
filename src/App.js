@@ -5,23 +5,49 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+      <div>
+        <header>
+          <h1> Periodic Table</h1>
         </header>
+      <div className="Container">
+
+
+       <div className="Elem H">
+            H
+        </div>
+        <div className="Elem Li">
+            Li
+        </div>
+        <div className="Elem Na">
+            Na
+        </div>
+        <div className="Elem K">
+            K
+        </div>
+        <div className="Elem Rb">
+          Rb 
+        </div>
+
+        <div className="Elem Cs">
+            Cs 
+        </div>
+
+        <div className="Elem Fr">
+            Fr 
+        </div>
+        <div className="Elem Elem_57_71">
+        </div>
+
+       <div className="Elem Elem_89_103">
+        </div>
+
+
+
+
+
       </div>
-    );
+      </div>
+   );
   }
 }
 
