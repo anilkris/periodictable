@@ -76,5 +76,80 @@ export const ThirdBox = () => <React.Fragment>
     <div className="Elem Transition Cd">
         Cd 
     </div>
+  <div className="Elem Transition extelem1">
+      57-71
+    </div>
+
+    <div className="Elem Transition Hf">
+      Hf 
+    </div>
+    <div className="Elem Transition Ta">
+       Ta 
+    </div>
+    <div className="Elem Transition W">
+        W 
+    </div>
+    <div className="Elem Transition Re">
+        Re 
+    </div>
+
+    <div className="Elem Transition Os">
+        Os 
+    </div>
+    
+    <div className="Elem Transition Ir">
+         Ir
+    </div>
+
+    <div className="Elem Transition Pt">
+        Pt 
+    </div>
+   <div className="Elem Transition Au">
+        Au 
+    </div>
+    
+    <div className="Elem Transition Hg">
+        Hg 
+    </div>
+
+
+
+  <div className="Elem Transition extelem2">
+      89-103
+    </div>
+
+    <div className="Elem Transition Rf">
+      Rf 
+    </div>
+    <div className="Elem Transition Db">
+       Db 
+    </div>
+    <div className="Elem Transition Sg">
+        Sg 
+    </div>
+    <div className="Elem Transition Bh">
+        Bh 
+    </div>
+
+    <div className="Elem Transition Hs">
+        Hs 
+    </div>
+    
+    <div className="Elem Transition Mt">
+        Mt 
+    </div>
+
+    <div className="Elem Transition Ds">
+        Ds 
+    </div>
+   <div className="Elem Transition Rg">
+        Rg 
+    </div>
+    
+    <div className="Elem Transition Cn">
+        Cn 
+    </div>
+
+
 
 </React.Fragment>;

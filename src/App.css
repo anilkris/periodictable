@@ -39,7 +39,10 @@ header {
 .Nonmetal 
    { background-color: rgb(127, 246, 127); }
 .Noble .Noble           { background-color: rgb(195, 212, 255); }
-.Lanthanoid .Lanthanoid { background-color: rgb(255, 212, 195); }
+.Lanthanoid 
+{
+   background-color: rgb(255, 212, 195);
+   }
 .Actinoid .Actinoid     { background-color: rgb(238, 212, 229); }
 .Undiscovered           { background-color: rgb(255, 255, 255); }
 .InnerBorder            { background-color: rgb(204, 204, 255); }
@@ -272,8 +275,104 @@ header {
 .Cd {
   grid-column: 12 / 13;
   grid-row : 5 / 6;
+}
+.extelem1 {
+  grid-column: 3 / 4;
+  grid-row : 6 / 7;
+  background-color: orange;
+}
+.Hf {
+  grid-column: 4 / 5;
+  grid-row : 6 / 7;
+}
+.Ta {
+  grid-column: 5/ 6;
+  grid-row : 6 / 7;
+}
+.W {
+  grid-column: 6 / 7;
+  grid-row : 6 / 7;
+
+}
+.Re {
+  grid-column:  7 / 8;
+  grid-row : 6 / 7;
+}
+
+.Os {
+  grid-column: 8 / 9;
+  grid-row : 6 / 7;
+}
 
 
+.Ir {
+  grid-column: 9 / 10;
+  grid-row : 6 / 7;
+}
+
+
+.Pt {
+  grid-column: 10 / 11;
+  grid-row : 6 / 7;
+}
+
+.Au {
+  grid-column: 11 / 12;
+  grid-row : 6 / 7;
+}
+.Hg {
+  grid-column: 12 / 13;
+  grid-row : 6 / 7;
+}
+
+
+.extelem2 {
+  grid-column: 3 / 4;
+  grid-row : 7 / 8;
+  background-color: orange;
+}
+.Rf {
+  grid-column: 4 / 5;
+  grid-row : 7 / 8;
+}
+.Db {
+  grid-column: 5/ 6;
+  grid-row : 7 / 8;
+}
+.Sg {
+  grid-column: 6 / 7;
+  grid-row : 7 / 8;
+
+}
+.Bh {
+  grid-column:  7 / 8;
+  grid-row : 7 / 8;
+}
+
+.Hs {
+  grid-column: 8 / 9;
+  grid-row : 7 / 8;
+}
+
+
+.Mt {
+  grid-column: 9 / 10;
+  grid-row : 7 / 8;
+}
+
+
+.Ds {
+  grid-column: 10 / 11;
+  grid-row : 7 / 8;
+}
+
+.Rg {
+  grid-column: 11 / 12;
+  grid-row : 7 / 8;
+}
+.Cn {
+  grid-column: 12 / 13;
+  grid-row : 7 / 8;
 }
 
 
