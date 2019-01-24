@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {FirstColumn} from './FirstColumn.js';
 import {SecondColumn} from './SecondColumn.js';
 import {LastColumn} from './LastColumn.js';
+import {ThirdBox} from './ThirdBox';
 import './App.css';
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
 
       <FirstColumn />
       <SecondColumn />
+      <ThirdBox />
       <LastColumn />
         <div className="Elem Elem_57_71">
         </div>

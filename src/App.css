@@ -31,7 +31,8 @@ header {
 .Alkali 
 { background-color: rgb(255, 212, 127); }
 .Alkaline .Alkaline     { background-color: rgb(255, 255, 127); }
-.Transition .Transition { background-color: rgb(238, 204, 204); }
+.Transition
+ { background-color: rgb(238, 204, 204); }
 .Poor .Poor             { background-color: rgb(136, 238, 221); }
 .Metalloid .Metalloid	{ background-color: rgb(136, 221, 153); }
 .Halogen .Halogen		{ background-color: rgb(102, 221, 204); }
@@ -170,6 +171,119 @@ header {
   grid-row : 6 / 7;
   background-color: rgb(73, 141, 218);
 }
+.Sc {
+  grid-column: 3 / 4;
+  grid-row : 4 / 5;
+
+}
+.Ti {
+
+  grid-column: 4 / 5;
+  grid-row : 4 / 5;
+}
+.V {
+
+  grid-column: 5/ 6;
+  grid-row : 4 / 5;
+}
+.Cr {
+  grid-column: 6 / 7;
+  grid-row : 4 / 5;
+}
+.Mn {
+  grid-column:  7 / 8;
+  grid-row : 4 / 5;
+}
+.Fe {
+  grid-column: 8 / 9;
+  grid-row : 4 / 5;
+}
+
+
+.Co {
+  grid-column: 9 / 10;
+  grid-row : 4 / 5;
+}
+
+
+.Ni {
+  grid-column: 10 / 11;
+  grid-row : 4 / 5;
+}
+
+.Cu {
+  grid-column: 11 / 12;
+  grid-row : 4 / 5;
+}
+.Zn {
+  grid-column: 12 / 13;
+  grid-row : 4 / 5;
+}
+
+
+.Y {
+  grid-column: 3 / 4;
+  grid-row : 5 / 6;
+
+}
+.Zr {
+
+  grid-column: 4 / 5;
+  grid-row : 5 / 6;
+}
+.Nb {
+
+  grid-column: 5/ 6;
+  grid-row : 5 / 6;
+}
+.Mo {
+  grid-column: 6 / 7;
+  grid-row : 5 / 6;
+
+
+}
+.Tc {
+  grid-column:  7 / 8;
+  grid-row : 5 / 6;
+
+}
+.Ru {
+  grid-column: 8 / 9;
+  grid-row : 5 / 6;
+}
+
+
+.Rh {
+  grid-column: 9 / 10;
+  grid-row : 5 / 6;
+}
+
+
+.Pd {
+  grid-column: 10 / 11;
+
+  grid-row : 5 / 6;
+}
+
+.Ag {
+  grid-column: 11 / 12;
+  grid-row : 5 / 6;
+}
+.Cd {
+  grid-column: 12 / 13;
+  grid-row : 5 / 6;
+
+
+}
+
+
+
+
+
+
+
+
+
 
 .Og {
 
