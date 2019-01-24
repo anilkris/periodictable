@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {FirstColumn} from './FirstColumn.js';
+import {SecondColumn} from './SecondColumn.js';
 import {LastColumn} from './LastColumn.js';
 import './App.css';
 
@@ -13,6 +14,7 @@ class App extends Component {
       <div className="Container">
 
       <FirstColumn />
+      <SecondColumn />
       <LastColumn />
         <div className="Elem Elem_57_71">
         </div>

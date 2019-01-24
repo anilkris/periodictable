@@ -1,27 +1,27 @@
 import React from 'react';
 
 export const FirstColumn = () => <React.Fragment>
-       <div className="Elem H">
+       <div className="Elem Nonmetal H">
             H
         </div>
-        <div className="Elem Li">
+        <div className="Elem Alkali Li">
             Li
         </div>
-        <div className="Elem Na">
+        <div className="Elem Alkali Na">
             Na
         </div>
-        <div className="Elem K">
+        <div className="Elem Alkali K">
             K
         </div>
-        <div className="Elem Rb">
+        <div className="Elem Alkali Rb">
           Rb 
         </div>
 
-        <div className="Elem Cs">
+        <div className="Elem Alkali Cs">
             Cs 
         </div>
 
-        <div className="Elem Fr">
+        <div className="Elem Alkali Fr">
             Fr 
         </div>
 

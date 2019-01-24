@@ -11,9 +11,9 @@ header {
 }
 .Container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 3px;
+  grid-gap: 4px ;
   width: 90%;
   height: 80vh;
   border: 1px solid;
@@ -22,46 +22,161 @@ header {
 }
 .Elem {
   background-color: #444;
-  color: #fff;
+  color: black;
+  font-weight: 200%;
+  font-size: 120%;
+  font-style: bold;
 }
+
+.Alkali 
+{ background-color: rgb(255, 212, 127); }
+.Alkaline .Alkaline     { background-color: rgb(255, 255, 127); }
+.Transition .Transition { background-color: rgb(238, 204, 204); }
+.Poor .Poor             { background-color: rgb(136, 238, 221); }
+.Metalloid .Metalloid	{ background-color: rgb(136, 221, 153); }
+.Halogen .Halogen		{ background-color: rgb(102, 221, 204); }
+.Nonmetal 
+   { background-color: rgb(127, 246, 127); }
+.Noble .Noble           { background-color: rgb(195, 212, 255); }
+.Lanthanoid .Lanthanoid { background-color: rgb(255, 212, 195); }
+.Actinoid .Actinoid     { background-color: rgb(238, 212, 229); }
+.Undiscovered           { background-color: rgb(255, 255, 255); }
+.InnerBorder            { background-color: rgb(204, 204, 255); }
+.BlueLeft, .BlueRight, .BlueTop, .BlueBottom	{ border-color: rgb(102, 102, 255); }
+
 
 .H {
   grid-column: 1 / 2;
   grid-row : 1 / 2;
-  background-color: green;
+
 }
 .Li {
   grid-column: 1 / 2;
   grid-row : 2 / 3;
-  background-color: orange;
 }
 .Na {
   grid-column: 1 / 2;
   grid-row : 3 / 4;
-  background-color: orange;
 }
 .K {
   grid-column: 1 / 2;
   grid-row : 4 / 5;
-  background-color: orange;
+
+
 }
 .Rb {
   grid-column: 1 / 2;
   grid-row : 5 / 6;
-  background-color: orange;
 }
 .Cs {
   grid-column: 1 / 2;
   grid-row : 6 / 7;
-  background-color: orange;
 }
 
 .Fr {
   grid-column: 1 / 2;
   grid-row : 7 / 8;
-  background-color: orange;
 }
 
+.Be {
+  grid-column: 2 / 3;
+  grid-row : 2 / 3;
+  background-color: rgb(255, 255, 127);
+}
+
+.Mg {
+
+  grid-column: 2 / 3;
+  grid-row : 3 / 4;
+
+  background-color: rgb(255, 255, 127);
+
+}
+.Ca {
+
+  grid-column: 2 / 3;
+  grid-row : 4 / 5;
+
+  background-color: rgb(255, 255, 127);
+
+}
+.Sr {
+
+  grid-column: 2 / 3;
+  grid-row : 5 / 6;
+
+  background-color: rgb(255, 255, 127);
+
+}
+
+.Ba {
+
+  grid-column: 2 / 3;
+  grid-row : 6 / 7;
+
+  background-color: rgb(255, 255, 127);
+
+}
+.Ra {
+
+  grid-column: 2 / 3;
+  grid-row : 7 / 8;
+
+  background-color: rgb(255, 255, 127);
+
+}
+.He {
+  grid-column: 18 / 19;
+  grid-row : 1 / 2;
+  background-color: rgb(73, 141, 218);
+ 
+
+}
+.Ne {
+
+  grid-column: 18 / 19;
+  grid-row : 2 / 3;
+
+  background-color: rgb(73, 141, 218);
+
+}
+.Ar {
+
+  grid-column: 18 / 19;
+  grid-row : 3 / 4;
+
+  background-color: rgb(73, 141, 218);
+
+}
+.Kr {
+
+  grid-column: 18 / 19;
+  grid-row : 4 / 5;
+
+  background-color: rgb(73, 141, 218);
+
+}
+.Xe {
+
+  grid-column: 18 / 19;
+  grid-row : 5 / 6;
+
+  background-color: rgb(73, 141, 218);
+
+}
+.Rn {
+
+  grid-column: 18 / 19;
+  grid-row : 6 / 7;
+  background-color: rgb(73, 141, 218);
+}
+
+.Og {
+
+  grid-column: 18 / 19;
+  grid-row : 7 / 8;
+  background-color: rgb(76, 80, 76);
+}
 .Elem_57_71 {
   grid-column: 4 / 19;
   grid-row : 10 / 11;
