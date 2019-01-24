@@ -34,7 +34,7 @@ header {
 .Transition
  { background-color: rgb(238, 204, 204); }
 .Poor .Poor             { background-color: rgb(136, 238, 221); }
-.Metalloid .Metalloid	{ background-color: rgb(136, 221, 153); }
+.Metalloid { background-color: rgb(136, 221, 153); }
 .Halogen .Halogen		{ background-color: rgb(102, 221, 204); }
 .Nonmetal 
    { background-color: rgb(127, 246, 127); }
@@ -43,7 +43,7 @@ header {
 {
    background-color: rgb(255, 212, 195);
    }
-.Actinoid .Actinoid     { background-color: rgb(238, 212, 229); }
+.Actinoid { background-color: rgb(238, 212, 229); }
 .Undiscovered           { background-color: rgb(255, 255, 255); }
 .InnerBorder            { background-color: rgb(204, 204, 255); }
 .BlueLeft, .BlueRight, .BlueTop, .BlueBottom	{ border-color: rgb(102, 102, 255); }
@@ -375,12 +375,133 @@ header {
   grid-row : 7 / 8;
 }
 
+.B {
+  grid-column: 13 / 14;
+  grid-row : 2 / 3;
+}
+.C {
+  grid-column: 14 / 15;
+  grid-row : 2 / 3;
+}
+.N {
+  grid-column: 15 / 16;
+  grid-row : 2 / 3;
+}
+.O {
+  grid-column: 16 / 17;
+  grid-row : 2 / 3;
+}
+.F {
+  grid-column: 17 / 18;
+  grid-row : 2 / 3;
+}
+
+.Al {
+  grid-column: 13 / 14;
+  grid-row : 3 / 4;
+}
+.Si {
+  grid-column: 14 / 15;
+  grid-row : 3 / 4;
+}
+.P {
+  grid-column: 15 / 16;
+  grid-row : 3 / 4;
+}
+.S {
+  grid-column: 16 / 17;
+  grid-row : 3 / 4;
+}
+.Cl {
+  grid-column: 17 / 18;
+  grid-row : 3 / 4;
+}
+
+.Ga {
+  grid-column: 13 / 14;
+  grid-row : 4 / 5;
+}
+.Ge {
+  grid-column: 14 / 15;
+  grid-row : 4 / 5;
+}
+.As {
+  grid-column: 15 / 16;
+  grid-row : 4 / 5;
+}
+.Se {
+  grid-column: 16 / 17;
+  grid-row : 4 / 5;
+}
+.Br {
+  grid-column: 17 / 18;
+  grid-row : 4 / 5;
+}
+
+
+.In {
+  grid-column: 13 / 14;
+  grid-row : 5 / 6;
+}
+.Sn {
+  grid-column: 14 / 15;
+  grid-row : 5 / 6;
+}
+.Sb {
+  grid-column: 15 / 16;
+  grid-row : 5 / 6;
+}
+.Te {
+  grid-column: 16 / 17;
+  grid-row : 5 / 6;
+}
+.I {
+  grid-column: 17 / 18;
+  grid-row : 5 / 6;
+}
+.Tl {
+  grid-column: 13 / 14;
+  grid-row : 6 / 7;
+}
+.Pb {
+  grid-column: 14 / 15;
+  grid-row : 6 / 7;
+}
+.Bi {
+  grid-column: 15 / 16;
+  grid-row :  6 / 7;
+}
+.Po {
+  grid-column: 16 / 17;
+  grid-row : 6 / 7;
+}
+.At {
+  grid-column: 17 / 18;
+  grid-row : 6 / 7;
+}
 
 
 
-
-
-
+.Nh {
+  grid-column: 13 / 14;
+  grid-row : 7 / 8;
+}
+.Fl {
+  grid-column: 14 / 15;
+  grid-row : 7 / 8;
+}
+.Mc {
+  grid-column: 15 / 16;
+  grid-row :  7 / 8;
+}
+.Lv {
+  grid-column: 16 / 17;
+  grid-row : 7 / 8;
+}
+.Ts {
+  grid-column: 17 / 18;
+  grid-row : 7 / 8;
+}
 
 
 
@@ -390,6 +511,7 @@ header {
   grid-row : 7 / 8;
   background-color: rgb(76, 80, 76);
 }
+/*
 .Elem_57_71 {
   grid-column: 4 / 19;
   grid-row : 10 / 11;
@@ -400,6 +522,138 @@ header {
   grid-column: 4 / 19;
   grid-row : 11 / 12;
   background-color: rgb(218, 143, 73);
+}
+*/
+
+
+.La {
+  grid-column: 4 / 5;
+  grid-row : 10 / 11;
+}
+.Ce {
+  grid-column: 5 / 6;
+  grid-row : 10 / 11;
+}
+
+.Pr {
+  grid-column: 6 / 7;
+  grid-row : 10 / 11;
+}
+
+.Nd {
+  grid-column: 7 / 8;
+  grid-row : 10 / 11;
+}
+.Pm {
+  grid-column: 8 / 9;
+  grid-row : 10 / 11;
+}
+.Sm {
+  grid-column: 9 / 10;
+  grid-row : 10 / 11;
+}
+.Eu {
+  grid-column: 10 / 11;
+  grid-row : 10 / 11;
+}
+.Gd {
+  grid-column: 11 / 12;
+  grid-row : 10 / 11;
+}
+
+.Tb {
+  grid-column: 12 / 13;
+  grid-row : 10 / 11;
+}
+.Dy {
+  grid-column: 13 / 14;
+  grid-row : 10 / 11;
+}
+.Ho {
+  grid-column: 14 / 15;
+  grid-row : 10 / 11;
+}
+.Er {
+  grid-column: 15 / 16;
+  grid-row : 10 / 11;
+}
+.Tm {
+  grid-column: 16 / 17;
+  grid-row : 10 / 11;
+}
+
+.Yb {
+  grid-column: 17 / 18;
+  grid-row : 10 / 11;
+}
+.Lu {
+  grid-column: 18 / 19;
+  grid-row : 10 / 11;
+}
+
+.Ac {
+  grid-column: 4 / 5;
+  grid-row : 11 / 12;
+}
+.Th {
+  grid-column: 5 / 6;
+  grid-row : 11 / 12;
+}
+
+.Pa {
+  grid-column: 6 / 7;
+  grid-row : 11 / 12;
+}
+
+.U {
+  grid-column: 7 / 8;
+  grid-row : 11 / 12;
+}
+.Np {
+  grid-column: 8 / 9;
+  grid-row : 11 / 12;
+}
+.Pu {
+  grid-column: 9 / 10;
+  grid-row : 11 / 12;
+}
+.Am {
+  grid-column: 10 / 11;
+  grid-row : 11 / 12;
+}
+.Cm {
+  grid-column: 11 / 12;
+  grid-row : 11 / 12;
+}
+
+.Bk {
+  grid-column: 12 / 13;
+  grid-row : 11 / 12;
+}
+.Cf {
+  grid-column: 13 / 14;
+  grid-row : 11 / 12;
+}
+.Es {
+  grid-column: 14 / 15;
+  grid-row : 11 / 12;
+}
+.Fm {
+  grid-column: 15 / 16;
+  grid-row : 11 / 12;
+}
+.Md {
+  grid-column: 16 / 17;
+  grid-row : 11 / 12;
+}
+
+.No {
+  grid-column: 17 / 18;
+  grid-row : 11 / 12;
+}
+.Lr {
+  grid-column: 18 / 19;
+  grid-row : 11 / 12;
 }
 
 

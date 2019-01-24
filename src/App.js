@@ -3,6 +3,8 @@ import {FirstColumn} from './FirstColumn.js';
 import {SecondColumn} from './SecondColumn.js';
 import {LastColumn} from './LastColumn.js';
 import {ThirdBox} from './ThirdBox';
+import {FourthBox} from './FourthBox';
+import {Extended} from './Extended';
 import './App.css';
 
 class App extends Component {
@@ -17,12 +19,10 @@ class App extends Component {
       <FirstColumn />
       <SecondColumn />
       <ThirdBox />
+      <FourthBox />
       <LastColumn />
-        <div className="Elem Elem_57_71">
-        </div>
 
-       <div className="Elem Elem_89_103">
-       </div>
+      <Extended />
       </div>
       </div>
    );
